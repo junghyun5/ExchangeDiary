@@ -1,69 +1,70 @@
 # Testing
 
 ## Testing Method
+
 This project was tested manually using the Android emulator in Android Studio.
 
-Since this version is a frontend-focused prototype, the main goal of testing was to check whether the screens worked correctly, navigation was smooth, and the main features behaved as expected.
+Because this version is a frontend-focused prototype, the main goal of testing was to confirm that screen navigation, user input, and feature behavior worked as expected.
 
 ---
 
-## Main Test Cases
+## Test Cases and Results
 
-### 1. App Launch Test
-- The app launches successfully in the emulator.
-- The home screen appears without crashing.
+### 1. App Launch
+- The app launched successfully in the emulator.
+- The home screen appeared without crashing.
 
-### 2. Navigation Test
-- The user can move from the home screen to the write screen.
-- The user can move from the home screen to the diary list screen.
-- The user can open the detail screen from the diary list.
-- The user can return to previous screens using the provided buttons.
-- The drawer menu opens and navigation through the menu works correctly.
+### 2. Screen Navigation
+- The user could move from the home screen to the write screen.
+- The user could move from the home screen to the diary list screen.
+- The user could open the detail screen from the diary list.
+- The drawer menu opened correctly and navigation through the menu worked.
 
-### 3. Diary Entry Creation Test
-- The user can type a title and content.
-- The user can save a new diary entry.
-- The saved diary entry appears in the diary list.
+### 3. Diary Entry Creation
+- The user could type a title and content.
+- Pressing the save button added a new diary entry.
+- The new entry appeared in the diary list.
 
-### 4. Diary Detail Test
-- The user can open a diary entry from the list.
-- The detail page correctly displays the title and content.
+### 4. Diary Detail View
+- A saved diary entry could be opened from the list.
+- The detail page displayed the correct title and content.
 
-### 5. Search Test
-- The search bar filters entries by title.
-- The search bar filters entries by content.
-- Entries that do not match the search input are hidden from the list.
+### 5. Search Function
+- Search input filtered entries by title.
+- Search input filtered entries by content.
+- Non-matching entries were hidden from the visible list.
 
-### 6. Mood Tag Parsing Test
-- If the user writes a tag such as `#mood:Happy`, the app correctly extracts the mood value.
-- The detail page shows the mood separately.
-- The main content is shown without the mood tag line.
+### 6. Mood Tag Parsing
+- When content included a tag such as `#mood:Happy`, the app extracted the mood value correctly.
+- The mood tag was shown separately from the main content.
+- The cleaned content appeared without the mood tag line.
 
-### 7. Emoji Reaction Test
-- The user can select an emoji reaction on the detail page.
-- The selected emoji appears correctly as the saved reaction.
+### 7. Emoji Reaction
+- Emoji reactions could be selected on the detail page.
+- The selected reaction was saved and displayed correctly.
 
-### 8. Temporary Diary Logic Test
-- The user can turn on the temporary diary option.
-- Temporary entries are labeled correctly.
-- The expiration logic is implemented for 24-hour diary behavior.
+### 8. Temporary Diary Logic
+- Temporary diary mode could be turned on when writing an entry.
+- Temporary entries were labeled correctly.
+- Expiration logic for 24-hour diary behavior was implemented in the UI flow.
 
-### 9. Login and Add Friend Prototype Test
-- The login prototype screen opens correctly.
-- The add-friend prototype screen opens correctly.
-- Username and partner name values can be updated in the UI.
+### 9. Prototype Pages
+- The login prototype page opened correctly.
+- The add-friend prototype page opened correctly.
+- Username and partner name values could be updated in the interface.
 
 ---
 
 ## Test Result Summary
 
-Overall, the main UI flow of the application works correctly for a prototype version.
+Overall, the main UI flow of the application worked correctly for a prototype version.
 
-The following features were successfully tested:
+The following features worked successfully during testing:
+- app launch
 - screen navigation
 - diary writing and saving
 - diary list display
-- detail page display
+- diary detail display
 - search filtering
 - mood tag parsing
 - emoji reactions
@@ -74,11 +75,13 @@ The following features were successfully tested:
 
 ## Known Limitations
 
-This project is still a prototype, so some limitations remain:
-- there is no real backend
-- there is no real authentication
-- there is no persistent database
-- data is stored only during runtime
-- login and add-friend are prototype UI screens only
+The current version still has the following limitations:
 
-Because of this, testing was focused mainly on frontend behavior and interaction flow.
+- no real backend
+- no real authentication
+- no persistent database
+- no actual syncing between users
+- login and add-friend are UI prototypes only
+- data is stored only during runtime
+
+Because of this, testing focused mainly on frontend behavior and interaction flow rather than full system integration.
