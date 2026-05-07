@@ -8,7 +8,13 @@
 - [Main Features](#main-features)
 - [Computer Science Concepts Used](#computer-science-concepts-used)
 - [Tech Stack](#tech-stack)
-
+- [Repository Structure](#repository-structure)
+- [Standards and Practices](#standards-and-practices)
+- [Current Limitations](#current-limitations)
+- [Documentation](#documentation)
+- [Testing](#testing)
+- [Presentation](#presentation)
+- [Future Work](#future-work)
 
 ---
 
@@ -98,3 +104,16 @@ The app checks diary content for structured text such as `#mood:Happy`, extracts
 - **IDE:** Android Studio
 - **UI Framework:** Jetpack Compose
 
+---
+
+## Repository Structure
+
+```text
+ExchangeDiary/
+├─ README.md
+├─ code/
+│  └─ ExchangeDiary/
+├─ docs/
+│  ├─ project_plan.md
+│  └─ testing.md
+└─ slides/
