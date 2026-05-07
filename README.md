@@ -8,13 +8,7 @@
 - [Main Features](#main-features)
 - [Computer Science Concepts Used](#computer-science-concepts-used)
 - [Tech Stack](#tech-stack)
-- [Repository Structure](#repository-structure)
-- [Standards and Practices](#standards-and-practices)
-- [Current Limitations](#current-limitations)
-- [Documentation](#documentation)
-- [Testing](#testing)
-- [Presentation](#presentation)
-- [Future Work](#future-work)
+
 
 ---
 
